@@ -23,7 +23,7 @@ const App = (props) => {
   );
 };
 
-const appState = state => {
+const appStates = state => {
   
   return {
     car: state.reducer.car,
@@ -34,4 +34,4 @@ const appState = state => {
 }
 
 //connect exported component 
-export default connect(appState, {})(App);
+export default connect(appStates, {})(App);
