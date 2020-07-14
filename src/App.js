@@ -34,4 +34,4 @@ const appState = state => {
 }
 
 //connect exported component 
-export default connect(mapStateToProps, {})(App);
+export default connect(appState, {})(App);
